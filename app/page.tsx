@@ -25,9 +25,14 @@ export default function Home() {
   return (
     <>
       {/* ── NAV ── */}
-      <nav className="nav">
+      <nav className="nav" role="navigation" aria-label="Main navigation">
         <div className="nav-logo">VELOCIS AI</div>
-        <button className="nav-cta">Get Started</button>
+        <div className="nav-links">
+          <a href="#services" aria-label="Services">Services</a>
+          <a href="#process" aria-label="How It Works">How It Works</a>
+          <a href="#guarantee" aria-label="Guarantee">Guarantee</a>
+        </div>
+        <a href="mailto:hello@velocisai.com" className="nav-cta" aria-label="Get Started">Get Started</a>
       </nav>
 
       {/* ── HERO ── */}
@@ -51,10 +56,10 @@ export default function Home() {
           production-ready solutions before your competitors finish their RFPs.
         </p>
 
-        <button className="hero-cta">
+        <a href="mailto:hello@velocisai.com" className="hero-cta" aria-label="Accelerate Now">
           Accelerate Now
           <span className="hero-cta-arrow">&rarr;</span>
-        </button>
+        </a>
       </section>
 
       {/* ── SPEED METRICS ── */}
@@ -81,7 +86,7 @@ export default function Home() {
       </section>
 
       {/* ── SERVICES ── */}
-      <section className="services">
+      <section className="services" id="services">
         <div className="container">
           <div className="section-label reveal">What We Build</div>
           <h2 className="section-title reveal">
@@ -130,7 +135,7 @@ export default function Home() {
       </section>
 
       {/* ── HOW IT WORKS ── */}
-      <section className="process">
+      <section className="process" id="process">
         <div className="container">
           <div className="process-header">
             <div className="section-label reveal">How It Works</div>
@@ -154,6 +159,7 @@ export default function Home() {
                 fill="none"
                 stroke="currentColor"
                 strokeWidth="2"
+                aria-hidden="true"
               >
                 <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>
@@ -172,6 +178,7 @@ export default function Home() {
                 fill="none"
                 stroke="currentColor"
                 strokeWidth="2"
+                aria-hidden="true"
               >
                 <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>
@@ -190,6 +197,7 @@ export default function Home() {
                 fill="none"
                 stroke="currentColor"
                 strokeWidth="2"
+                aria-hidden="true"
               >
                 <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>
@@ -208,7 +216,7 @@ export default function Home() {
       </section>
 
       {/* ── VELOCITY GUARANTEE ── */}
-      <section className="guarantee">
+      <section className="guarantee" id="guarantee">
         <div className="container">
           <div className="guarantee-badge reveal">Our Promise</div>
           <h2 className="guarantee-headline reveal">
@@ -235,10 +243,10 @@ export default function Home() {
             Your competitors are already building with AI. Let&apos;s make sure
             you get there first.
           </p>
-          <button className="cta-button reveal">
+          <a href="mailto:hello@velocisai.com" className="cta-button reveal" aria-label="Let's Talk">
             Let&apos;s Talk
             <span className="cta-button-arrow">&rarr;</span>
-          </button>
+          </a>
         </div>
       </section>
 
