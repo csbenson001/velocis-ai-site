@@ -31,6 +31,7 @@ export default function Home() {
           <a href="#services" aria-label="Services">Services</a>
           <a href="#process" aria-label="How It Works">How It Works</a>
           <a href="#guarantee" aria-label="Guarantee">Guarantee</a>
+          <a href="#faq" aria-label="FAQ">FAQ</a>
         </div>
         <a href="mailto:hello@velocisai.com" className="nav-cta" aria-label="Get Started">Get Started</a>
       </nav>
@@ -229,6 +230,104 @@ export default function Home() {
             deliver a working minimum viable product in 14 days, you pay
             nothing. That&apos;s the Velocis guarantee.
           </p>
+        </div>
+      </section>
+
+      {/* ── FAQ ── */}
+      <section className="faq" id="faq">
+        <div className="container">
+          <div className="section-label reveal">Common Questions</div>
+          <h2 className="section-title reveal">
+            Straight answers.
+            <br />
+            No friction.
+          </h2>
+          <div className="faq-grid">
+            <div className="faq-item reveal stagger-1">
+              <h3 className="faq-question">What is Velocis AI?</h3>
+              <p className="faq-answer">
+                Velocis AI is an AI development studio that builds
+                production-ready AI solutions at unprecedented speed. We combine
+                agent-powered development teams with deep AI expertise to deliver
+                working AI products in days and weeks, not months.
+              </p>
+            </div>
+            <div className="faq-item reveal stagger-2">
+              <h3 className="faq-question">
+                How fast can Velocis AI build an AI product?
+              </h3>
+              <p className="faq-answer">
+                We deliver a working prototype within 48 hours and a
+                production-ready MVP within 2 weeks. That&apos;s 10x faster than
+                traditional AI development timelines of 3&ndash;6 months.
+              </p>
+            </div>
+            <div className="faq-item reveal stagger-3">
+              <h3 className="faq-question">
+                What is the Velocis AI MVP guarantee?
+              </h3>
+              <p className="faq-answer">
+                If we can&apos;t deliver a working minimum viable product in 14
+                days, you pay nothing. No hedging, no padded timelines.
+                That&apos;s the Velocis guarantee.
+              </p>
+            </div>
+            <div className="faq-item reveal stagger-4">
+              <h3 className="faq-question">
+                What types of AI solutions does Velocis AI build?
+              </h3>
+              <p className="faq-answer">
+                We build AI agents (conversational AI, multi-agent systems,
+                autonomous workflows), rapid prototypes, production-scale AI
+                infrastructure, and continuous optimization systems. Our expertise
+                spans LLMs, NLP, computer vision, and more.
+              </p>
+            </div>
+            <div className="faq-item reveal stagger-1">
+              <h3 className="faq-question">
+                How much does Velocis AI charge?
+              </h3>
+              <p className="faq-answer">
+                Pricing varies based on project scope and complexity. Given our
+                2-week delivery timeline, total project costs are often
+                significantly lower than traditional engagements that stretch over
+                months. Contact us for a custom quote.
+              </p>
+            </div>
+            <div className="faq-item reveal stagger-2">
+              <h3 className="faq-question">
+                Is Velocis AI good for startups?
+              </h3>
+              <p className="faq-answer">
+                Absolutely. Our speed and MVP guarantee make us ideal for founders
+                who need to validate AI product ideas quickly without burning
+                through their runway. We get you to market before better-funded
+                competitors.
+              </p>
+            </div>
+            <div className="faq-item reveal stagger-3">
+              <h3 className="faq-question">
+                How is Velocis AI different from other AI companies?
+              </h3>
+              <p className="faq-answer">
+                Three things set us apart: speed (48-hour prototypes, 2-week
+                MVPs), our guarantee (free if we miss the deadline), and our
+                methodology (agent-powered teams that produce zero technical
+                debt). We ship production code, not slide decks.
+              </p>
+            </div>
+            <div className="faq-item reveal stagger-4">
+              <h3 className="faq-question">
+                What is Velocis AI&apos;s development process?
+              </h3>
+              <p className="faq-answer">
+                Four phases: Brief (Day 1) to understand your problem, Prototype
+                (Day 2&ndash;3) to deliver a working demo, Iterate (Week
+                1&ndash;2) to refine with daily builds, and Launch (Week 2) to
+                deploy to production with full monitoring.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 

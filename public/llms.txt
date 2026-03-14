@@ -1,0 +1,26 @@
+# Velocis AI
+
+> AI development studio that ships production-ready AI products 10x faster than traditional development teams.
+
+## About
+Velocis AI is an AI development studio focused on speed and quality. We deliver production-ready AI solutions in days and weeks, not months. Our agent-powered development teams combine AI automation with human expertise to compress discovery into delivery. We offer a unique guarantee: MVP in 2 weeks or it's free.
+
+## Services
+- AI Agent Development: Custom autonomous agents for conversational AI, multi-agent systems, and complex workflows — production-ready from day one
+- Rapid Prototyping: Working AI prototypes in 48 hours, enabling fast validation and iteration
+- Production Scaling: Infrastructure that handles millions of requests, from proof-of-concept to planet-scale
+- Continuous Optimization: AI systems that learn and improve daily through monitoring, fine-tuning, and iterative refinement
+
+## Key Differentiators
+- 48-hour first prototype delivery
+- 2-week MVP guarantee (free if we miss the deadline)
+- 10x faster than traditional AI development
+- Zero technical debt methodology
+- Agent-powered development teams
+
+## Industries Served
+Startups, SaaS companies, fintech, healthtech, e-commerce, logistics, enterprise software
+
+## Contact
+- Website: https://velocis-ai-site.vercel.app
+- Email: hello@velocisai.com
