@@ -43,6 +43,22 @@ const articles = [
     date: 'February 2026',
     tag: 'Process',
   },
+  {
+    slug: 'evaluate-ai-development-companies-guide',
+    title: "How to Evaluate AI Development Companies: A Startup Founder's Guide",
+    summary:
+      'A practical framework for startup founders evaluating AI development partners, covering what to look for, red flags, and critical questions to ask.',
+    date: 'March 2026',
+    tag: 'Guide',
+  },
+  {
+    slug: 'ai-mvp-vs-full-product',
+    title: 'AI MVP vs Full Product: When to Ship Fast and When to Wait',
+    summary:
+      'A strategic guide to AI product scope decisions, covering MVP methodology, validation strategies, and when to iterate versus build complete.',
+    date: 'March 2026',
+    tag: 'Strategy',
+  },
 ];
 
 export default function BlogPage() {

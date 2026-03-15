@@ -354,6 +354,12 @@ export default function Home() {
         <p className="footer-text">
           &copy; 2026 <span>Velocis AI</span>. All rights reserved.
         </p>
+        <ul className="footer-blog-links">
+          <li><a href="/#services">Services</a></li>
+          <li><a href="/#process">Process</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="mailto:hello@velocisai.com">Contact</a></li>
+        </ul>
       </footer>
     </>
   );
