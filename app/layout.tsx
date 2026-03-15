@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'Velocis AI — Ship AI Products 10x Faster',
     description: 'Production-ready AI solutions in days, not months. 48-hour prototypes. 2-week MVP guarantee.',
     type: 'website',
-    url: 'https://velocis-ai-site.vercel.app',
+    url: 'https://velocisai.dev',
     siteName: 'Velocis AI',
   },
   twitter: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description: 'Production-ready AI solutions in days, not months. 48-hour prototypes. 2-week MVP guarantee.',
   },
   alternates: {
-    canonical: 'https://velocis-ai-site.vercel.app',
+    canonical: 'https://velocisai.dev',
   },
   robots: {
     index: true,
@@ -32,9 +32,9 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://velocis-ai-site.vercel.app/#organization",
+      "@id": "https://velocisai.dev/#organization",
       "name": "Velocis AI",
-      "url": "https://velocis-ai-site.vercel.app",
+      "url": "https://velocisai.dev",
       "email": "hello@velocisai.com",
       "description": "AI development studio that ships production-ready AI products 10x faster than traditional development teams.",
       "slogan": "AI at Velocity",
@@ -49,18 +49,18 @@ const jsonLd = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://velocis-ai-site.vercel.app/#website",
-      "url": "https://velocis-ai-site.vercel.app",
+      "@id": "https://velocisai.dev/#website",
+      "url": "https://velocisai.dev",
       "name": "Velocis AI",
       "publisher": {
-        "@id": "https://velocis-ai-site.vercel.app/#organization"
+        "@id": "https://velocisai.dev/#organization"
       }
     },
     {
       "@type": "Service",
       "name": "AI Agent Development",
       "provider": {
-        "@id": "https://velocis-ai-site.vercel.app/#organization"
+        "@id": "https://velocisai.dev/#organization"
       },
       "description": "Custom autonomous agents for conversational AI, multi-agent systems, and complex workflows — production-ready from day one.",
       "serviceType": "AI Development"
@@ -69,7 +69,7 @@ const jsonLd = {
       "@type": "Service",
       "name": "Rapid Prototyping",
       "provider": {
-        "@id": "https://velocis-ai-site.vercel.app/#organization"
+        "@id": "https://velocisai.dev/#organization"
       },
       "description": "Working AI prototypes in 48 hours, enabling fast validation and iteration with real code, real AI, and real results.",
       "serviceType": "AI Prototyping"
@@ -78,7 +78,7 @@ const jsonLd = {
       "@type": "Service",
       "name": "Production Scaling",
       "provider": {
-        "@id": "https://velocis-ai-site.vercel.app/#organization"
+        "@id": "https://velocisai.dev/#organization"
       },
       "description": "Infrastructure that handles millions of requests, from proof-of-concept to planet-scale, without breaking a sweat or the bank.",
       "serviceType": "AI Infrastructure"
@@ -87,14 +87,14 @@ const jsonLd = {
       "@type": "Service",
       "name": "Continuous Optimization",
       "provider": {
-        "@id": "https://velocis-ai-site.vercel.app/#organization"
+        "@id": "https://velocisai.dev/#organization"
       },
       "description": "AI systems that learn and improve daily through monitoring, fine-tuning, and iterative refinement.",
       "serviceType": "AI Optimization"
     },
     {
       "@type": "FAQPage",
-      "@id": "https://velocis-ai-site.vercel.app/#faq",
+      "@id": "https://velocisai.dev/#faq",
       "mainEntity": [
         {
           "@type": "Question",

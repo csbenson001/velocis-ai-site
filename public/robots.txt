@@ -25,4 +25,4 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
-Sitemap: https://velocis-ai-site.vercel.app/sitemap.xml
+Sitemap: https://velocisai.dev/sitemap.xml

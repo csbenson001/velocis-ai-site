@@ -22,5 +22,5 @@ Velocis AI is an AI development studio focused on speed and quality. We deliver 
 Startups, SaaS companies, fintech, healthtech, e-commerce, logistics, enterprise software
 
 ## Contact
-- Website: https://velocis-ai-site.vercel.app
+- Website: https://velocisai.dev
 - Email: hello@velocisai.com

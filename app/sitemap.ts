@@ -3,7 +3,7 @@ import type { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://velocis-ai-site.vercel.app',
+      url: 'https://velocisai.dev',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1,

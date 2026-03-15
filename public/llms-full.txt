@@ -146,5 +146,5 @@ Three things set us apart: speed (48-hour prototypes, 2-week MVPs), our guarante
 Our process has four phases: Brief (Day 1) where we understand your problem, Prototype (Day 2–3) where we deliver a working demo, Iterate (Week 1–2) where we refine based on your feedback with daily builds, and Launch (Week 2) where we deploy to production with full monitoring.
 
 ## Contact
-- Website: https://velocis-ai-site.vercel.app
+- Website: https://velocisai.dev
 - Email: hello@velocisai.com
